@@ -6,7 +6,7 @@ async function main() {
   try {
     await mongoose.connect(config.datebase_url as string)
 
-    console.log(`Database is conneted succesfully Working`)
+    console.log(`Database is connected succesfully Working`)
     app.listen(config.port, () => {
       console.log(`Application listening on port ${config.port}`)
     })
