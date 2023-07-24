@@ -15,7 +15,7 @@
     "prefer-const": "error",
     "no-unused-expressions": "error",
     "no-undef": "error",
-    "no-console": "error",
+    "no-console": "warn",
     "no-unreachable": "error",
     "@typescript-eslint/consistent-type-definitions": ["error", "type"]
   },
